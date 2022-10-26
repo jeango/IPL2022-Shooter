@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace proxysoulCode
+namespace Ipl2022.proxysoulCode
 {
     public class EnemyMovement : MonoBehaviour
     {

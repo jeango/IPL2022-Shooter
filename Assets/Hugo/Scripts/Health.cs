@@ -2,7 +2,7 @@ using Ipl2022;
 using System;
 using UnityEngine;
 
-namespace proxysoulCode
+namespace Ipl2022.proxysoulCode
 {
     public class Health : MonoBehaviour, IDamageable
     {
