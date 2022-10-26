@@ -27,7 +27,7 @@ namespace Ipl2022.Van
 
         public void TakeDamage(IDamage damage)
         {
-            currentHealth -= damage.DamageValue();
+            currentHealth -= damage.DamageValue;
             CheckDeath();
         }
 

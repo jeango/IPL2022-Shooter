@@ -13,7 +13,7 @@ namespace Ipl2022.proxysoulCode
 
         public void TakeDamage(IDamage damage)
         {
-            currentHealth -= damage.DamageValue();
+            currentHealth -= damage.DamageValue;
             DamageTaken?.Invoke(damage);
             if (currentHealth <= 0)
                 Destroy(gameObject);

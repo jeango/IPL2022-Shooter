@@ -19,7 +19,7 @@ namespace ipl2022.Guillaume {
     
         public void TakeDamage(IDamage damage)
         {
-            currentHealth -= damage.DamageValue();
+            currentHealth -= damage.DamageValue;
             if (currentHealth <= 0)
                 Die();
         }
